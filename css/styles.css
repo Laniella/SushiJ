@@ -1,3 +1,6 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
 p{
   margin: 0 0;
 }
@@ -18,7 +21,6 @@ table{
 
 /* Header Section */
 .navbar{
-
   padding-left: 50px;
   padding-top: 20px;
   padding-right: 50px;
@@ -77,6 +79,7 @@ table{
 .description{
   font-size: 1.3rem;
   color: gray;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -93,6 +96,10 @@ table{
 
 .phone{
   color: #ff0059;
+}
+
+.orderfrom{
+  color: gray;
 }
 
 .orderlogos{
@@ -169,7 +176,10 @@ table{
   margin-top: 10px;
 }
 
-
+.Yunjae{
+  font-weight: bold;
+  color: white;
+}
 
 @media (min-width: 768px) {
   #header{
@@ -207,6 +217,16 @@ table{
     text-align: center;
   }
 
+  .calltext{
+    font-size: 2rem;
+  }
+
+  .orderfrom{
+    font-size: 1.5rem;
+  }
+  .orderlogos{
+    height: 60px;
+  }
   .menuimg{
     height: 150vh;
   }
