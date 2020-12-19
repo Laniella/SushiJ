@@ -63,17 +63,23 @@ table{
 #about{
   padding: 10% 20%;
   line-height: 1.8;
+
 }
 
 .aboutdiv{
-  margin-bottom: 100px;
+  max-width: 1000px;
+  margin: 0 auto 150px auto;
+  text-align: left;
+}
+
+.aboutimgdiv{
+  text-align: center;
 }
 
 .aboutimg{
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  margin: 30px;
 }
 
 .description{
@@ -187,9 +193,6 @@ table{
     z-index: 1;
   }
 
-  .aboutimg{
-    float: left;
-  }
 
   .hours{
     margin: 0 auto 0 0;
@@ -210,10 +213,6 @@ table{
     z-index: 1;
     width: 100%;
     background-color: #1a2225;
-    text-align: center;
-  }
-
-  .aboutimg{
     text-align: center;
   }
 
@@ -247,10 +246,14 @@ table{
   }
   .abouttitle{
     font-size: 1.5rem;
+    margin-top: 40px;
   }
   .description{
     font-size: 1rem;
     text-align: left;
+  }
+  .aboutdiv{
+    margin: 0 auto 50px auto;
   }
 
 }
