@@ -117,27 +117,28 @@ table{
 .menutitle{
   font-size: 3rem;
   line-height: 1.4;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 
-.menuimg{
+/* .menuimg{
   background-image: url("../images/sushijholiday-faded.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
 
-.menumain{
+/* .menumain{
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-}
+} */
 
 .card{
   margin-bottom: 20px;
@@ -227,9 +228,10 @@ table{
   .orderlogos{
     height: 60px;
   }
-  .menuimg{
+  /* .menuimg{
+    min-height: 900px;
     height: 150vh;
-  }
+  } */
 
   .footer-right{
     text-align: center;
@@ -252,5 +254,8 @@ table{
     font-size: 1rem;
     text-align: left;
   }
+  /* .menuimg{
+    min-height: 1200px;
+  } */
 
 }
