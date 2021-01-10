@@ -118,12 +118,16 @@ table{
 #menu{
   text-align: center;
   color: white;
+  background-image: url("../images/sushijholiday-faded.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10% 5%;
 }
 
 .menutitle{
   font-size: 3rem;
   line-height: 1.4;
-  padding-top: 5%;
   padding-bottom: 2%;
 }
 
@@ -254,7 +258,7 @@ table{
     font-size: 1rem;
     text-align: left;
   }
-  
+
   /* .menuimg{
     min-height: 1200px;
   } */
