@@ -192,7 +192,7 @@ table{
   color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 661px) {
   #header{
     position: fixed;
     z-index: 1;
@@ -209,7 +209,7 @@ table{
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 660px) {
   .navbarlogoimg{
     height: 60px;
   }
