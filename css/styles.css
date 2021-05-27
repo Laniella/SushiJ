@@ -101,6 +101,12 @@ table{
   margin-bottom: 40px;
 }
 
+.order_button{
+  font-size: 2.3rem;
+  vertical-align: baseline;
+  text-decoration: underline;
+}
+
 .phone{
   color: #ff0059;
 }
