@@ -65,17 +65,24 @@ table{
 }
 
 .titletext{
-  font-size: 4rem;
+  font-size: 2.8rem;
   line-height: 1.4;
   padding-bottom: 5%;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.subhead_blurb {
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 3px #000000;
+  text-align: left;
+  display: inline-block;
 }
 
 /* About Section */
 #about{
   padding: 10% 20%;
   line-height: 1.8;
-
 }
 
 .aboutdiv{
@@ -276,7 +283,7 @@ a.top_button {
 
 @media (max-width: 1004px){
   .titletext{
-    font-size: 3rem;
+    font-size: 2rem;
   }
   #about{
     text-align: center;
